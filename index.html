@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>화이준반점 메뉴표</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--red:#b3151b;--gold:#f2b705;--paper:#fff6e0;--ink:#2a1208;--line:#d9b36a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--red);color:var(--ink);font-family:"Noto Sans KR",sans-serif;line-height:1.6;
+ background-image:radial-gradient(circle at 20px 20px,rgba(242,183,5,.18) 3px,transparent 4px);background-size:40px 40px}
+.wrap{max-width:720px;margin:0 auto;padding:24px 16px 56px}
+header{text-align:center;color:var(--gold);padding:24px 0 16px}
+header h1{font-family:Jua,sans-serif;font-size:clamp(2.6rem,10vw,4.5rem);margin:0;letter-spacing:.05em;text-shadow:3px 3px 0 #5a0a0d}
+header p{margin:6px 0 0;color:#ffe9a8;font-size:.95rem}
+.warn{background:var(--gold);color:var(--ink);font-weight:700;text-align:center;padding:10px 14px;border-radius:8px;transform:rotate(-1deg);margin:12px 0 22px}
+.menu{background:var(--paper);border:4px double var(--line);border-radius:10px;padding:8px 22px 18px;margin-bottom:20px;box-shadow:0 6px 0 #5a0a0d}
+.menu h2{font-family:Jua,sans-serif;color:var(--red);font-size:1.5rem;margin:14px 0 6px}
+ul{list-style:none;margin:0;padding:0}
+li{display:flex;align-items:baseline;gap:8px;padding:7px 0}
+li .n{flex:0 0 auto}
+li .d{flex:1;border-bottom:2px dotted var(--line);transform:translateY(-4px);min-width:16px}
+li .p{flex:0 0 auto;font-weight:700;color:var(--red);text-align:right}
+.tag{display:inline-block;font-size:.72rem;background:var(--red);color:#fff;border-radius:99px;padding:1px 8px;margin-left:6px;vertical-align:middle}
+.tag.gold{background:var(--gold);color:var(--ink)}
+.fine li{font-size:.95rem}
+.info{background:#2a1208;color:#ffe9a8;border-radius:10px;padding:16px 20px}
+.info p{margin:4px 0}
+.info code{background:#5a0a0d;padding:2px 8px;border-radius:4px;color:#fff}
+.info a{color:var(--gold)}
+footer{text-align:center;color:#ffe9a8;font-size:.8rem;margin-top:20px}
+@media (max-width:420px){.menu{padding:6px 14px 14px}li{font-size:.92rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>화이준반점</h1>
+    <p>MENU</p>
+  </header>
+  <div class="warn">리뷰이벤트: 덧글 3개 쓰면 죽탱이 쳐맞음</div>
+
+  <section class="menu">
+    <h2>기본 안내</h2>
+    <ul class="fine">
+      <li><span class="n">상차림비 (부가세 별도)</span><span class="d"></span><span class="p">30억</span></li>
+      <li><span class="n">배달비</span><span class="d"></span><span class="p">7,000억</span></li>
+      <li><span class="n">결제</span><span class="d"></span><span class="p">현금결제만 가능</span></li>
+    </ul>
+  </section>
+
+  <section class="menu">
+    <h2>꿔바로우</h2>
+    <ul>
+      <li><span class="n">화이준꿔바로우 小</span><span class="d"></span><span class="p">100억</span></li>
+      <li><span class="n">화이준꿔바로우 中</span><span class="d"></span><span class="p">200억</span></li>
+      <li><span class="n">화이준꿔바로우 大</span><span class="d"></span><span class="p">300억</span></li>
+    </ul>
+  </section>
+
+  <section class="menu">
+    <h2>요리 · 면</h2>
+    <ul>
+      <li><span class="n">화이준짜짜로니<span class="tag">추천메뉴</span></span><span class="d"></span><span class="p">300억</span></li>
+      <li><span class="n">화이준유산슬</span><span class="d"></span><span class="p">800억</span></li>
+      <li><span class="n">화이준가지튀김</span><span class="d"></span><span class="p">500억</span></li>
+      <li><span class="n">화이준바퀴벌레튀김<span class="tag gold">한정판</span></span><span class="d"></span><span class="p">1,000억</span></li>
+      <li><span class="n">화이준중국냉면<span class="tag gold">계절메뉴</span></span><span class="d"></span><span class="p">7,777억</span></li>
+      <li><span class="n">화이준크림짬뽕<span class="tag">매운맛 1~3단계</span></span><span class="d"></span><span class="p">3,000억</span></li>
+      <li><span class="n">화이준볶음우동</span><span class="d"></span><span class="p">700억</span></li>
+      <li><span class="n">화이준스페셜 (코끼리똥딲끼)</span><span class="d"></span><span class="p">시가</span></li>
+    </ul>
+  </section>
+
+  <section class="menu">
+    <h2>주류 · 사이드</h2>
+    <ul>
+      <li><span class="n">화이준고량주 (1병)</span><span class="d"></span><span class="p">400억</span></li>
+      <li><span class="n">화이준생수리필</span><span class="d"></span><span class="p">100억</span></li>
+      <li><span class="n">화이준공기밥</span><span class="d"></span><span class="p">1조 4,000억</span></li>
+      <li><span class="n">화이준젓가락</span><span class="d"></span><span class="p">8,000억</span></li>
+      <li><span class="n">화이준두반장</span><span class="d"></span><span class="p">333억</span></li>
+      <li><span class="n">화이준단무지 추가</span><span class="d"></span><span class="p">50억</span></li>
+      <li><span class="n">앞치마 교체</span><span class="d"></span><span class="p">70억</span></li>
+    </ul>
+  </section>
+
+  <section class="menu">
+    <h2>서비스 · 굿즈</h2>
+    <ul>
+      <li><span class="n">주방장 퍼포먼스: 두부 곡예</span><span class="d"></span><span class="p">무료 관람</span></li>
+      <li><span class="n">화이준화장실열쇠대여</span><span class="d"></span><span class="p">30조</span></li>
+      <li><span class="n">화이준키오스크</span><span class="d"></span><span class="p">10억 / 초당</span></li>
+      <li><span class="n">100조 이상 구매 시 주차권</span><span class="d"></span><span class="p">10초 무료</span></li>
+      <li><span class="n">화이준똥꾸릉내 향수 (25ml)<span class="tag gold">특별굿즈</span></span><span class="d"></span><span class="p">30,000해</span></li>
+    </ul>
+  </section>
+
+  <section class="info">
+    <p>와이파이 비밀번호: <code>most8226</code></p>
+    <p>주소: 강원특별자치도 춘천시 화이준로 화이준빌딩 13층 1301호</p>
+    <p>전화: <a href="tel:01085698226">010-8569-8226</a></p>
+  </section>
+
+  <footer>※ 모든 가격은 농담입니다. 진짜 결제 안 해요.</footer>
+</div>
+</body>
+</html>
